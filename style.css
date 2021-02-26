@@ -81,6 +81,10 @@ img {
     width: 100%;
   }
 
+  #lezioni .row > div.left{
+    margin-bottom: 30px;
+  }
+
   #lezioni .row img{
     max-width: 100%;
   }
@@ -102,4 +106,15 @@ img {
     max-width: 100%;
   }
 
+  /* WHY */
+  #why .row,
+  #why .row > first,
+  #why .row > second,
+  #why .row > third{
+    width: 100%;
+  }
+
+  #why .row img{
+    max-width: 100%;
+  }
 }
