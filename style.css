@@ -79,10 +79,26 @@ img {
   #lezioni .row > div.right,
   #lezioni .row > div.left{
     width: 100%;
-    margin: auto;
   }
 
   #lezioni .row img{
+    max-width: 100%;
+  }
+
+  /* STEP */
+  #steps .row,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central{
+    margin-bottom: 30px;
+  }
+
+  #steps .row img{
     max-width: 100%;
   }
 
